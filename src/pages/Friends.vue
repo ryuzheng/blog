@@ -75,7 +75,7 @@ export default {
   },
   mounted() {
     if (process.env.NODE_ENV === 'production') {
-      widows.Valine = require('valine')
+      window.Valine = require('valine');
       const valine = new Valine({
         el: '#vcomments',
         appId: 'ValcujOd8RqQw9PnuSaVkWey-gzGzoHsz',
