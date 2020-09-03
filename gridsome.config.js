@@ -13,7 +13,7 @@ module.exports = {
   siteDescription: '一个生信工作者的独立博客',
 
   templates: {
-    Post: '/archives/:slug',
+    Post: '/archives/:slug_raw',
     Tag: '/tag/:id',
   },
 
