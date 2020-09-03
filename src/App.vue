@@ -22,7 +22,12 @@
     <footer class="footer">
       <div class="footer__copyright">
         Copyright ©2013 - {{ new Date().getFullYear() }}.
-        &nbsp;&nbsp;&nbsp;&nbsp;<a no-style href="http://www.beian.miit.gov.cn" target="_blank">粤ICP备18056573号-1</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a
+          no-style
+          href="http://www.beian.miit.gov.cn"
+          target="_blank"
+          >粤ICP备18056573号-1</a
+        >
       </div>
       <div class="footer__links">
         Runs on <font-awesome :icon="['fas', 'rocket']" />
