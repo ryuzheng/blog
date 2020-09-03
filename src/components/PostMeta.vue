@@ -6,7 +6,7 @@
       <strong>
         {{ post.cjkReadTime }} min read.
         <span :id="post.path" class="leancloud_visitors" :data-flag-title="post.title">
-          <i class="leancloud-visitors-count">0</i>
+          <i class="leancloud-visitors-count"><font-awesome :icon="['fa', 'spinner']" /></i>
         </span> views.
         <!-- <font-awesome :icon="['fa', 'spinner']" pulse v-if="loading" /> -->
         <!-- <span v-else>{{ hitCount }}</span> views. -->
