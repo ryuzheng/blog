@@ -27,4 +27,4 @@ fields:
   name: description
   label: description
 pages:
-- content/posts/aliyun-pbs.md
+- content/posts/2020-06-27-阿里云PBS作业排队管理.md
