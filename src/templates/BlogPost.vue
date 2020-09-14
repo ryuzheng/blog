@@ -117,19 +117,6 @@ export default {
       (today - publishTime) / (1000 * 60 * 60 * 24)
     )
     this.publishedDays = publishedDays
-
-    if (process.env.NODE_ENV === 'production') {
-      window.Valine2 = require('valine');
-      const valine = new Valine2({
-        el: '#vcomments',
-        appId: 'ValcujOd8RqQw9PnuSaVkWey-gzGzoHsz',
-        appKey: 'xHr7ovH5p80YCEyIi5QMAB9F',
-        recordIP: true,
-        visitor: true,
-        requiredFields: ['nick', 'mail'],
-        placeholder: '请刷新该页面后再留言',
-      })
-    }
   },
 }
 </script>

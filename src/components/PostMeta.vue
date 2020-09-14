@@ -18,20 +18,34 @@
 <script>
 export default {
   props: ['post'],
+  data(){
+    return {
+      valine:null
+    }
+  },
   mounted() {
-    if (process.env.NODE_ENV === 'production') {
-      window.Valine = require('valine');
-      const valine = new Valine({
+    window.Valine = require('valine');
+    let vm = this
+    vm.$nextTick(()=>{
+      vm.valine = new Valine({
         el: '#vcomments',
         appId: 'ValcujOd8RqQw9PnuSaVkWey-gzGzoHsz',
         appKey: 'xHr7ovH5p80YCEyIi5QMAB9F',
         recordIP: true,
         visitor: true,
         requiredFields: ['nick', 'mail'],
-        placeholder: '欢迎留言',
+        placeholder: '请刷新该页面后再留言',
+        path: this.$route.path,
       })
-    }
+    })
   },
+  watch: {
+    $route (to, from) {
+      if (from.path != to.path) {
+        this.valine && this.valine.setPath(to.path)
+      }
+    }
+  }
 }
 </script>
 
