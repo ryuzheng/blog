@@ -2,11 +2,13 @@
 title: 解包一个 PAR 打包的 perl 程序源码
 date: 2020-10-18T07:00:00Z
 published: false
-slug: ''
-tags: []
+slug: decoded_a_Perl_script
+tags:
+- 生物信息
+- Perl
 cover_image: ''
 canonical_url: false
-description: ''
+description: 最近在流程debug时，和同事发现一个perl脚本有问题；然后发现这个perl脚本是别人打包好的，所以看不到源码。我就想把这个perl脚本给解包（不敢称为反编译，因为实际上也没做反编译）了。
 
 ---
 最近在流程debug时，和同事发现一个perl脚本有问题；然后发现这个perl脚本是别人打包好的，所以看不到源码。我就想把这个perl脚本给解包（不敢称为反编译，因为实际上也没做反编译）了。因为打包perl脚本这事，我以前也做过，所以我觉得应该可行。
