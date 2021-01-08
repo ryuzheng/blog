@@ -70,6 +70,12 @@ export default {
           avatar: 'https://secure.gravatar.com/avatar/a9508e0578974654d1348e9b6bfbc8ed?s=160&d=mm&r=g',
           style: 'color: #fff; background-color: #487747',
         },
+        {
+          id: '沉舟侧畔',
+          link: 'https://springwood.me/',
+          avatar: 'https://gravatar.loli.net/avatar/e7073f269e803311f4be6994f1086ed2?s=160&d=mm&r=g',
+          style: 'color: #fff; background-color: #5e2c38',
+        },
       ],
     }
   },
