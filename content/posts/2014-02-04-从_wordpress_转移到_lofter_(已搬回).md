@@ -6,7 +6,7 @@ slug: cong-wordpress-zhuan-yi-dao-lofter-yi-ban-hui
 tags: ['网站']
 cover_image: 
 canonical_url: false
-description: ""
+description: "很久很久之前，就开始玩lofter，但当时觉得自己的风格与lofter格格不入。别人发的都是很文艺的图片照片，但我自然没有这些。于是就在网易博客上写博客，记录自己的东西。"
 ---
 
 

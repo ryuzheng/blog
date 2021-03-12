@@ -15,7 +15,7 @@ description: "这两天在研究Docker，尝试着在Windows上搭建，需要�
 
 以下是我自己搭建时遇到的几个错误，同时也提供了我解决的方法。
 
-##快要完成安装时发生倒退##
+## 快要完成安装时发生倒退##
 
 很不幸运地，从刚开始安装就发生了错误，我安装了很多次还是不行，上网搜索解决的方法，有人说不要勾选支持USB的选项，我尝试了也不行。
 
@@ -24,12 +24,12 @@ description: "这两天在研究Docker，尝试着在Windows上搭建，需要�
 >首先，如果你有360的软件，关闭360的Intel-VT核晶防护引擎，方法是打开360 -> 安全防护中心 -> 右上角的五角星 -> 关闭所谓的核晶防护引擎（估计360也是建一个虚拟机或者沙盒之类的来防御吧，但是很可恶地开了之后别的软件都无法使用Intel-VT，害得我的海马玩模拟器很卡）
 然后，打开注册表 -> HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Network -> MaxNumFilters的值从8改成20 -> 重启再安装（这是我从贴吧找到的，亲测有效，但是Win10貌似不支持）
 
-##虚拟机启动报错
+## 虚拟机启动报错
 
-[photos]
+
 ![](./images/dccc5010b912c8fc96fa6e73ff039245d78821ce.jpg)
 ![](./images/e957ae12c8fcc3ce95c9518d9145d688d53f20ce.jpg)
-[/photos]
+
 
 如果你的报错信息如图那样，还有类似以下的
 
@@ -47,7 +47,7 @@ The virtual machine 'boot2docker-vm' has terminated unexpectedly during startup 
 如D:\Program Files\Oracle\VirtualBox\drivers\vboxdrv，
 右击VBoxDrv.inf，选安装，然后重启。
 
-##windows默认主题破解原因
+## windows默认主题破解原因
 
 有时Virtualbox的虚拟机创建不成功是因为你的电脑上的Windows默认主题被破解了，错误码一般有个1970。
 

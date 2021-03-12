@@ -6,7 +6,7 @@ slug: Transvar
 tags: ['Transvar', '生物信息']
 cover_image: ./images/2019-03-16-CleanShot_2019-02-11_at_00.14.17@2x.png
 canonical_url: false
-description: "## 简介"
+description: "Transvar 是 MD Anderson 开发的一款多种方向的突变/坐标转换工具，它支持基因组坐标、cDNA 坐标以及蛋白氨基酸坐标之间的转换。Google 了一下，发现对于这个工具的介绍还是很少的，于是来介绍一下。"
 ---
 
 

@@ -6,7 +6,7 @@ slug: now-you-see-me-liang-tian-mo-dao-tuan
 tags: ['大学杂记', '电影']
 cover_image: ./images/2019-09-13-p1943390205.webp
 canonical_url: false
-description: ""
+description: "不得不说，虽然我看的时候没有去电影院，而且这部片没有3d，也过去上映挺久了；但是真的很赞！在我心目中，这是一部可以与《盗墓空间》相媲美的科幻电影。"
 ---
 
 

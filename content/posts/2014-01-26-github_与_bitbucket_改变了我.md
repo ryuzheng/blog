@@ -15,7 +15,7 @@ description: "2013年，我也学别人，玩起了github，github真的是让�
 
 ![](./images/GitHub[1].jpg)
 
-##什么是git？
+## 什么是git？
 
 用github首先就先知道git是什么？其实git的概念很简单，就是版本控制系统，使用git，我们可以多次修改我们的源码，但是每一次修改的版本我们都可以对比，可以查看，这就变得很方便。
 
@@ -24,7 +24,7 @@ description: "2013年，我也学别人，玩起了github，github真的是让�
 *   [图解Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)
 *   [git - 简易指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 
-##什么是github？
+## 什么是github？
 
 github是一个开源托管平台，也是很多编程者的互相改良、交流的平台，之所以吸引这么多人，一个是因为这里有非常多优秀的编程者，一个是因为这里是免费而又开源的，有这么一个平台，你可以follow你感兴趣的项目，你可以folk你改进的源码。
 
@@ -36,7 +36,7 @@ github是一个开源托管平台，也是很多编程者的互相改良、交�
 
 玩了github后，我自己也看了很多很优秀的项目，同时自己也玩了一把folk了别人的源码，可以说，github是非常方便的。
 
-##为什么玩bitbucket？&nbsp;
+## 为什么玩bitbucket？&nbsp;
 
 我现在使用的是github，但是github不支持个人私有的库，也就是说，一般你建立的项目都是公开的，但是我要建立我自己私人的读书笔记。这里就介绍到，如果要建立私有的项目，有两种解决方法：
 
@@ -47,7 +47,7 @@ github是一个开源托管平台，也是很多编程者的互相改良、交�
 
 很多人觉得，使用两个不同的网站，要git上传源码不就很麻烦吗？我肯定不会那么笨啊！因为别忘了，我还是用github为主的，而bitbucket只是辅助而已。
 
-##如何同时使用github和bitbucket？
+## 如何同时使用github和bitbucket？
 
 答案非常简单！你不需要是mac，不需要下载两个客户端，**只需要用github的客户端就可以了！**而且解决的方法有两种：
 

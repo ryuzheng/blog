@@ -6,7 +6,7 @@ slug: pyinstaller-da-bao-python-jiao-ben-de-yi-xie-xin-de
 tags: ['PyInstaller', '代码']
 cover_image: ./images/pyinstaller.png
 canonical_url: false
-description: ""
+description: "因为在公司经常要帮同事做一个从excel表格中提取出需要的内容的重复工作，比较繁琐还容易出错；于是就想着要写个程序，但是同事又不可能在电脑上也装上python以及相关的包依赖（别人一看就觉得太麻烦而且太冗余），于是就想着将写好的python脚本打包成exe，直接双击使用，方便快捷。"
 ---
 
 
@@ -23,7 +23,7 @@ description: ""
  - PyInstaller使用方法简单，py2exe比较繁琐
  - PyInstaller网上教程比较多
 
-##安装PyInstaller
+## 安装PyInstaller
 推荐使用pip安装
 
 ```bash
@@ -56,7 +56,7 @@ pyinstaller-script.py: error: the following arguments are required: scriptname
 ```
 可以看到PyInstaller的信息，说明安装完成，可以使用了；详细帮助可以`pyinstaller -h`查看。
 
-##使用PyInstaller
+## 使用PyInstaller
 
 PyInstaller的使用非常简单：
 
@@ -77,7 +77,7 @@ PyInstaller本身也是有很多选项的。这里挑几个主要的说明一下
  - `-w, --windowed, --noconsole`无视窗，程序后台运行
  - `-i <FILE.ico or FILE.exe,ID or FILE.icns>, --icon <FILE.ico or FILE.exe,ID or FILE.icns>`添加icon图标
 
-##openpyxl的一个错误
+## openpyxl的一个错误
 程序打包之后一定要测试一下是否能成功运行，不然会在同事面前出糗，另外还需要用另一台电脑测试一下。
 
 当我试着运行程序时，发生了报错：
@@ -110,15 +110,15 @@ missing module named win32com.client._get_good_object_ - imported by win32com.cl
 
 关于前面说到的`warn[youscriptname].txt`文件，有一种说法是如果你在其中没有找到你所用到的包，那么里面的错误信息一般可以忽略，anyway，我是直接忽略掉的。
 
-##添加版本信息
+## 添加版本信息
 
 辛辛苦苦写了个程序，当然希望给程序签个名；PyInstaller是可以添加你自己的个人版本信息的，详细可以参考[《Creating an Executable from a Python Script》](https://mborgerson.com/creating-an-executable-from-a-python-script)，写的非常详细，依照相同的格式修改`version.txt`即可。但不知什么原因，我试了好几次都没有成功。如果以后找到原因，我再更新这篇文章。
 
-##关于32位和64位
+## 关于32位和64位
 
 这个算是后续剧情了。当把程序发给一位同事时，没想到同事的win系统是32位的，而我一直使用的都是64位的系统和64位的程序，而PyInstaller好像没有能选择生成32位/64位exe的选项；也算是PyInstaller的一个缺点吧。最后我是安装了32位的Python以及依赖的库重新生成32位的exe才解决这个问题；所以以后也许生成32位的程序兼容性更好。
 
-##Reference
+## Reference
  - [PyInstaller official website](http://www.pyinstaller.org/)
  - [【记录】用PyInstaller把Python代码打包成单个独立的exe可执行文件](http://www.crifan.com/use_pyinstaller_to_package_python_to_single_executable_exe/)
  - [Creating an Executable from a Python Script](https://mborgerson.com/creating-an-executable-from-a-python-script)
