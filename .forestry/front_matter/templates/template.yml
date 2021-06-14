@@ -28,3 +28,4 @@ fields:
   label: description
 pages:
 - content/posts/2020-06-27-阿里云PBS作业排队管理.md
+- content/posts/github-actions-annovar-clinvar.md
