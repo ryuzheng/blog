@@ -1,14 +1,12 @@
 ---
-title: 使用Github Actions自动更新ANNOVAR的使用的Clinvar数据库
-date: 2021-06-13T16:00:00Z
-published: false
+title: 使用 Github Actions 自动更新 ANNOVAR 的 Clinvar 数据库
+date: 2021-06-14 22:20:32
+published: true
 slug: automatic_update_Clinvar_db_for_ANNOVAR
-tags:
-- Github
-- 生物信息
-cover_image: ''
+tags: ['Github', '生物信息']
+cover_image: './images/2021/06/14/automatic_update_Clinvar_db_for_ANNOVAR_09.png'
 canonical_url: false
-description: ''
+description: '前段时间，看到ANNOVAR在文档里更新了一个可以自行更新Clinvar数据库的脚本，ANNOVAR更新Clinvar的频率，一般是半年到一年才更新一次。恰好又看到Github新推出了“Flat Data”，就想着是不是能够像Flat Data一样，抓取Clinvar数据库，然后定期更新成ANNOVAR数据库。'
 ---
 
 前段时间，看到ANNOVAR在文档里更新了一个可以自行更新Clinvar数据库的脚本，ANNOVAR更新Clinvar的频率，一般是半年到一年才更新一次。
