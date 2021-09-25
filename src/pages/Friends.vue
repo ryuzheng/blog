@@ -76,6 +76,12 @@ export default {
           avatar: 'https://gravatar.loli.net/avatar/e7073f269e803311f4be6994f1086ed2?s=160&d=mm&r=g',
           style: 'color: #fff; background-color: #5e2c38',
         },
+        {
+          id: 'YuZhangWang的领域',
+          link: 'https://www.yuzhang.wang/',
+          avatar: 'https://cdn.jsdelivr.net/gh/YuZhangWang/Creative_pictures01@main/img/20210907012640.png',
+          style: 'color: #fff; background-color: #577C8A',
+        },
       ],
     }
   },
