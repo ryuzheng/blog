@@ -20,21 +20,18 @@ export default {
   props: ['post'],
   data(){
     return {
-      valine:null
+      waline:null
     }
   },
   mounted() {
-    window.Valine = require('valine');
+    window.Waline = require('@waline/client');
     let vm = this
     vm.$nextTick(()=>{
-      vm.valine = new Valine({
+      vm.waline = Waline({
         el: '#vcomments',
-        appId: 'ValcujOd8RqQw9PnuSaVkWey-gzGzoHsz',
-        appKey: 'xHr7ovH5p80YCEyIi5QMAB9F',
-        recordIP: true,
+        serverURL: 'waline-99crv5cbp-ryuz.vercel.app',
         visitor: true,
-        requiredFields: ['nick', 'mail'],
-        placeholder: '请刷新该页面后再留言',
+        requiredMeta: ['nick', 'mail'],
         path: this.$route.path,
       })
     })
@@ -42,7 +39,7 @@ export default {
   watch: {
     $route (to, from) {
       if (from.path != to.path) {
-        this.valine && this.valine.setPath(to.path)
+        this.waline && this.waline.setPath(to.path)
       }
     }
   }

@@ -87,15 +87,12 @@ export default {
   },
   mounted() {
     if (process.env.NODE_ENV === 'production') {
-      window.Valine = require('valine');
-      const valine = new Valine({
+      window.Waline = require('@waline/client');
+      const waline = Waline({
         el: '#vcomments',
-        appId: 'ValcujOd8RqQw9PnuSaVkWey-gzGzoHsz',
-        appKey: 'xHr7ovH5p80YCEyIi5QMAB9F',
-        recordIP: true,
+        serverURL: 'waline-99crv5cbp-ryuz.vercel.app',
         visitor: true,
-        requiredFields: ['nick', 'mail'],
-        placeholder: '欢迎留言',
+        requiredMeta: ['nick', 'mail'],
       })
     }
   },
