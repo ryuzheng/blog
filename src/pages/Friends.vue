@@ -90,7 +90,7 @@ export default {
       window.Waline = require('@waline/client');
       const waline = Waline({
         el: '#vcomments',
-        serverURL: 'waline-99crv5cbp-ryuz.vercel.app',
+        serverURL: 'waline.zhengzexin.com',
         visitor: true,
         requiredMeta: ['nick', 'mail'],
       })

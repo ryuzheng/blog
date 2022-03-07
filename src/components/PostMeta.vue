@@ -29,7 +29,7 @@ export default {
     vm.$nextTick(()=>{
       vm.waline = Waline({
         el: '#vcomments',
-        serverURL: 'waline-99crv5cbp-ryuz.vercel.app',
+        serverURL: 'waline.zhengzexin.com',
         visitor: true,
         requiredMeta: ['nick', 'mail'],
         path: this.$route.path,
